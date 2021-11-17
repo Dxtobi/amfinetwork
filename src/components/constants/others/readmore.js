@@ -56,7 +56,7 @@ const Home = () => {
                 {
                     data.map((d, i) => {
                         return (
-                            <div className='read_container_item'>
+                            <div key={i} className='read_container_item'>
                                 <div className='read_container_text'>
                                     <h2 className='read_container_text_header'>{d.header}</h2>
                                     <div>

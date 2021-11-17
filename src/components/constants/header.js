@@ -3,7 +3,7 @@ import {Link } from 'react-router-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { FaBars } from 'react-icons/fa';
 import { useState } from 'react';
-
+import Client from "./others/customersupport/Client";
 
 /**
  * import Carousel from "react-multi-carousel";
@@ -57,7 +57,7 @@ const Header = () => {
     return (
         <div className='header_barner'>
             <div className='header'>
-                <div className='header_Brand'>A m f i</div>
+                <Link className='header_Brand' to='/'>A m f i</Link>
                 <div className='header_right'>
                     <Link className='header_link' to='/home'>
                         Home
@@ -71,7 +71,12 @@ const Header = () => {
                 </div>
                 
                         <div className={`menu ${menu?'menu-show':''}`}>
-                            <div>
+                    <div>
+                            <button onClick={
+                                        ()=>showMenu(!menu)
+                                    } className='Menu_link'>
+                                    Close
+                                    </button>
                             <Link className='Menu_link' to='/home'>
                                 Home
                             </Link>
@@ -82,11 +87,7 @@ const Header = () => {
                                 Contact Us
                             </Link>
 
-                            <button onClick={
-                                ()=>showMenu(!menu)
-                            } className='Menu_link'>
-                               Close
-                            </button>
+                            
                             </div>
                         </div>
                     
@@ -97,6 +98,9 @@ const Header = () => {
                     <FaBars/>
                 </button>
                 
+                <div className='static_page'>
+                    <Client/>
+                </div>
             </div>
             {/*<Carousel centerSlidePercentage={50}  centerMode={true} showArrows={true} autoPlay={true} infiniteLoop={true} showThumbs={false}>
                 <div className='img_div'>

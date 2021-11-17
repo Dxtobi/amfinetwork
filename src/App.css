@@ -6,6 +6,7 @@
     display: none;
   }
 
+  
   .app_container{
     width: 90%;
     margin: auto;
@@ -99,6 +100,7 @@
 }
 
 .menu {
+  display: block;
   border: 1px solid white;
   background: #ffffff;
   color: white !important;
@@ -110,13 +112,13 @@
   right: -60%;
   border-radius: 20px 0px 0px 20px;
   position: fixed;
-  transition-duration: 2s ;
+  transition-duration: 0.6s ;
 }
 
 .menu-show {
  
   right: -1%;
-  transition-duration: 2s ;
+  transition-duration: 0.5s ;
 
 }
 .Menu_link {
@@ -129,6 +131,40 @@
   margin-top: 20px;
   background: none;
   border: none;
+}
+
+.header_Brand {
+  text-decoration: none;
+  color: #00000094;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.parrent_div {
+  margin-top: 22px;
+}
+
+.news_later_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 100px;
+  
+  flex-direction: column;
+
 }
 }
 

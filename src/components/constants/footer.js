@@ -1,16 +1,18 @@
-
+import { useState} from "react";
 import { AiFillFacebook, AiFillTwitterCircle, AiOutlinePaperClip, AiFillYoutube } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 const Footer = ({auth, app}) => {
    
-
+const [email, changeEmail] = useState('')
 
     return (
         <div className='footer'>
             <div className='footer_block'>
                 <div className='footer_container'>
                     <div className='email_div'>
-                        <input className='email_input' type='email' placeholder='info@amfinetwork.com' value='' />
+                        <input onChange={(e)=>{
+                            changeEmail(e.target.value)
+                        }} className='email_input' type='email' placeholder='info@amfinetwork.com' value={email} />
                         <button className='email_btn'>JOIN</button>
                     </div>
 
@@ -39,7 +41,7 @@ const Footer = ({auth, app}) => {
                 <h3 style={{color: 'white'}}>Amfi Network Limited
                     Our Commitment is to rebuild Nigeria and Sub-Sahara Africa</h3>
                 
-                <h5 style={{color: 'white', marginTop:150 }}>© Amfi Network Limited</h5>
+                <h5 style={{color: 'white', marginTop:100 }}>© Amfi Network Limited</h5>
                 <div style={{ marginTop: 30 }}>
                     <img style={{width: 80, height: 80}} alt='' src='/logoa.png'/>
                 </div>

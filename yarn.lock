@@ -1151,6 +1151,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@cometchat-pro/chat@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@cometchat-pro/chat/-/chat-3.0.1.tgz#33f314617eb0d509d2a247261bf0cf9525f5ab00"
+  integrity sha512-L6mSAQsXtF0ldhFp3Jpkrz6/xIbkPRM7V/XzEpC+wdUKDPLqz2jofjA4uAUik8nHyUXxIA23BtEm4wMWVpEq3w==
+
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -9059,6 +9064,13 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
+react-md-spinner@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-md-spinner/-/react-md-spinner-1.0.0.tgz#14159e21b167af64bc9fb70c2558b5d9a5003820"
+  integrity sha512-W3akCl5v/qBKhsrRsIxMl+hNQojj+SiN0+wdMAsXDfoYhQhtyg9LAdsC7P/1r3bYAJsjDmi4f5qz0N5lh26FiQ==
+  dependencies:
+    stylis "^3.5.4"
+
 react-multi-carousel@^2.6.5:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/react-multi-carousel/-/react-multi-carousel-2.6.5.tgz#faeceb697b138c7a1c403c58ddc5f33cfc19b3f2"
@@ -10361,6 +10373,11 @@ stylehacks@^4.0.0:
     browserslist "^4.0.0"
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
+
+stylis@^3.5.4:
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/stylis/-/stylis-3.5.4.tgz#f665f25f5e299cf3d64654ab949a57c768b73fbe"
+  integrity sha512-8/3pSmthWM7lsPBKv7NXkzn2Uc9W7NotcwGNpJaa3k7WMM1XDCA4MgT5k/8BIexd5ydZdboXtU90XH9Ec4Bv/Q==
 
 supports-color@^5.3.0:
   version "5.5.0"

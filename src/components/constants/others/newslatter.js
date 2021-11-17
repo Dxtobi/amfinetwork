@@ -16,7 +16,13 @@ const Newsletter = () => {
             </div>
             <div className='news_later_container'>
                 <h1 className='top_heading'>NEWSLETTER</h1>
+                    <div>
+                        <p>
+                        News: Amfi Network Limited signs MoU with Nigeria Security and Civil Defence Corps to develop a 5000 Affordable Housing Scheme for its Staff in FCT, Abuja.
+                        </p>
+                    </div>
             </div>
+            
 
 
         </div>
