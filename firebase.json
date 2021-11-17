@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "amfineweb",
+    "public": "amfine",
     "ignore": [
       "firebase.json",
       "**/.*",
